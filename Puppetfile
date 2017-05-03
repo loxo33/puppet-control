@@ -2,9 +2,9 @@
 
 
 forge "http://forge.puppetlabs.com"
-mod "garethr/docker", 'v5.3.0'
-mod "garethr/hiera_etcd", 'v0.2.0'
-mod "garethr/kubernetes", 'v0.4.0'
+mod "garethr/docker", :latest
+mod "garethr/hiera_etcd", :latest
+mod "garethr/kubernetes", :latest
 mod "jfryman/nginx", :latest
 mod "cristifalcas/etcd", :latest
 
