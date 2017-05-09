@@ -16,5 +16,4 @@ mod "dalen/puppetdbquery", :latest
 
 mod 'profiles',
     :git            => 'https://github.com/loxo33/profiles.git',
-    :branch         => ':control_branch',
-    :default_branch => 'master'
+    :branch         => 'master',
