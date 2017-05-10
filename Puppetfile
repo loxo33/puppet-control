@@ -8,6 +8,7 @@ mod "garethr/kubernetes", :latest
 mod "jfryman/nginx", :latest
 mod "cristifalcas/etcd", :latest
 mod "dalen/puppetdbquery", :latest
+mod "puppetlabs/rkt", :latest
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
@@ -16,4 +17,7 @@ mod "dalen/puppetdbquery", :latest
 
 mod 'profiles',
     :git            => 'https://github.com/loxo33/profiles.git',
+    :branch         => 'master'
+mod 'coreos',
+    :git            => 'https://github.com/loxo33/puppet-coreos.git',
     :branch         => 'master'
