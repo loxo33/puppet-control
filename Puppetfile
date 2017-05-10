@@ -2,6 +2,7 @@
 
 
 forge "http://forge.puppetlabs.com"
+mod "puppetlabs/concat", :latest
 mod "garethr/docker", :latest
 mod "garethr/hiera_etcd", :latest
 mod "garethr/kubernetes", :latest
