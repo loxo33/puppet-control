@@ -1,7 +1,6 @@
 # Puppet Repos
 forge "http://forge.puppetlabs.com"
-mod "puppetlabs/stdlib",
-mod "puppetlabs/concat", v2.2.1
+mod "puppetlabs/stdlib", :latest
 mod "garethr/docker", :latest
 mod "garethr/hiera_etcd", :latest
 mod "garethr/kubernetes", :latest
