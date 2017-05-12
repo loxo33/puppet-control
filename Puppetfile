@@ -1,8 +1,7 @@
 # Puppet Repos
-
-
 forge "http://forge.puppetlabs.com"
-mod "puppetlabs/concat", :latest
+mod "puppetlabs/stdlib",
+mod "puppetlabs/concat", v2.2.1
 mod "garethr/docker", :latest
 mod "garethr/hiera_etcd", :latest
 mod "garethr/kubernetes", :latest
@@ -17,7 +16,7 @@ mod "puppetlabs/rkt", :latest
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
 
 mod 'profiles',
-    :git            => 'https://github.com/loxo33/profiles.git',
+    :git            => 'https://github.com/loxo33/puppet-profiles.git',
     :branch         => 'master'
 mod 'coreos',
     :git            => 'https://github.com/loxo33/puppet-coreos.git',
